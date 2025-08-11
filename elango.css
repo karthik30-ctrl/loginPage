@@ -1,0 +1,39 @@
+.wrapper{
+    height:600px;
+    width:900px;
+    border:2px solid rgb(175, 51, 51);
+    display: flex;
+}
+img{
+    height:600px;
+    width:650px;
+    opacity:0.7;
+}
+.regform{
+    height:580px;
+    width:400px;
+    border:2px solid greenyellow;
+    padding-left:20px;
+    padding-top:20px;
+}
+#L,#i{
+    color:blue;
+    text-shadow: 2px 2px 4px #ad2222;
+}
+.btn{
+    height:30px;
+    width:50px;
+background:green;
+border-radius: 100%;
+}
+.div:hover .btn{
+    width:150pxpx;
+    animation: changehead 1s infinite ease-in-out;
+}
+@keyframes changebtn{
+    0%{transform: rotate(-180deg);}
+    25%{transform:translatex(-20px)}
+    50%{transform:rotate(180deg);}
+    75%{transform:translatey(-20px)}
+    100%{transform:translatex(20px)}
+}
